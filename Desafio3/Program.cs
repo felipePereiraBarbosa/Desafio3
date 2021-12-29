@@ -31,28 +31,19 @@ namespace Desafio3
                 _carro.Portas = Convert.ToString(Console.ReadLine());
                 Console.Write("Informe o Combustivel do carro: ");
                 _carro.Combustivel = Convert.ToString(Console.ReadLine());
-
-               
-            
+                      
                 Console.WriteLine(_usuario.Nome);
                 Console.WriteLine(_usuario.DataDeNascimento);
                 Console.WriteLine(_usuario.Altura);
-                
-            
-           
-            
+                                 
                 Console.WriteLine(_casa.Cor);
                 Console.WriteLine(_casa.Numero);
                 Console.WriteLine(_casa.Endereco);
-                
-            
-            
-            
+                   
                 Console.WriteLine(_carro.Cor);
                 Console.WriteLine(_carro.Portas);
                 Console.WriteLine(_carro.Combustivel);
-                
-            
+                            
             Console.ReadKey();
         }
     }
